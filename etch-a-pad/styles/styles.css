@@ -1,0 +1,49 @@
+h1 {
+    /*text-align: center;*/
+    border-bottom: 5px solid #4f4f4f;
+    background-color: #0080FF;
+    margin-top: 0;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-top: 5px;
+    font-family: "Lucida Console", Monaco, monospace;
+    font-weight: bolder;
+
+}
+
+button {
+    background-color: #0080FF;
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold; 
+    border: 5px solid #4f4f4f;
+}
+
+button:focus {
+    outline: 0 !important;
+    background-color: #db0303;
+}
+
+.toolbar {
+    margin: 0 auto; 
+    width: 100%; 
+    text-align:center;
+}
+
+.container {
+    border-radius: 10px;
+    height: 500px;
+    width: 1000px;
+    margin: auto;
+    border: 5px solid #4f4f4f;
+    cursor: crosshair;
+}
+.unit {
+    float: left;
+    margin: none;
+}
+
+.filled {
+    background-color: black;
+}
